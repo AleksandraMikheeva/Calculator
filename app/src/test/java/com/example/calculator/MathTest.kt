@@ -9,8 +9,15 @@ import org.junit.Test
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class MathTest {
+
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+    @Test
+    fun increment_isCorrect() {
+        assertEquals(3, 2 + 1)
+    }
+
 }
