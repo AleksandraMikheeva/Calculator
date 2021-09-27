@@ -13,4 +13,9 @@ class MathTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+    @Test
+    fun dividing_isCorrect() {
+        assertEquals(2, 4 / 2)
+    }
 }
